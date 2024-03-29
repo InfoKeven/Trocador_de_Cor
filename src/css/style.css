@@ -53,14 +53,14 @@
     --fixed-width: 620px;
 }
 
-* {
+*,
     ::after, 
     ::before {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-}
+
 
 body {
     font-family: var(--ff-secondary);
@@ -72,6 +72,7 @@ body {
 
 ul {
     list-style-type: none;
+    padding-left: 2.5rem;
 }
 
 a {
